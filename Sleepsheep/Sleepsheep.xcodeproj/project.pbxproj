@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B79BA1D21CB7F38E00CF1D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BA1D11CB7F38E00CF1D69 /* Foundation.framework */; };
+		B79BA1D41CB7F38E00CF1D69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BA1D31CB7F38E00CF1D69 /* CoreGraphics.framework */; };
+		B79BA1D61CB7F38E00CF1D69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BA1D51CB7F38E00CF1D69 /* UIKit.framework */; };
+		B79BA1DC1CB7F38E00CF1D69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B79BA1DA1CB7F38E00CF1D69 /* InfoPlist.strings */; };
+		B79BA1DE1CB7F38E00CF1D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BA1DD1CB7F38E00CF1D69 /* main.m */; };
+		B79BA1E21CB7F38E00CF1D69 /* XYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BA1E11CB7F38E00CF1D69 /* XYSAppDelegate.m */; };
+		B79BA1E41CB7F38E00CF1D69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79BA1E31CB7F38E00CF1D69 /* Images.xcassets */; };
+		B79BA1EB1CB7F38E00CF1D69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BA1EA1CB7F38E00CF1D69 /* XCTest.framework */; };
+		B79BA1EC1CB7F38E00CF1D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BA1D11CB7F38E00CF1D69 /* Foundation.framework */; };
+		B79BA1ED1CB7F38E00CF1D69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BA1D51CB7F38E00CF1D69 /* UIKit.framework */; };
+		B79BA1F51CB7F38E00CF1D69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B79BA1F31CB7F38E00CF1D69 /* InfoPlist.strings */; };
+		B79BA1F71CB7F38E00CF1D69 /* SleepsheepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BA1F61CB7F38E00CF1D69 /* SleepsheepTests.m */; };
+		B79BA2021CB7F3E000CF1D69 /* ConcentricCirclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BA2011CB7F3E000CF1D69 /* ConcentricCirclesView.m */; };
+		B79BA2051CB7F44100CF1D69 /* XYSSleepSheep.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BA2041CB7F44100CF1D69 /* XYSSleepSheep.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B79BA1EE1CB7F38E00CF1D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79BA1C61CB7F38E00CF1D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79BA1CD1CB7F38E00CF1D69;
+			remoteInfo = Sleepsheep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B79BA1CE1CB7F38E00CF1D69 /* Sleepsheep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleepsheep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BA1D11CB7F38E00CF1D69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B79BA1D31CB7F38E00CF1D69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B79BA1D51CB7F38E00CF1D69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B79BA1D91CB7F38E00CF1D69 /* Sleepsheep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sleepsheep-Info.plist"; sourceTree = "<group>"; };
+		B79BA1DB1CB7F38E00CF1D69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B79BA1DD1CB7F38E00CF1D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B79BA1DF1CB7F38E00CF1D69 /* Sleepsheep-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sleepsheep-Prefix.pch"; sourceTree = "<group>"; };
+		B79BA1E01CB7F38E00CF1D69 /* XYSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYSAppDelegate.h; sourceTree = "<group>"; };
+		B79BA1E11CB7F38E00CF1D69 /* XYSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYSAppDelegate.m; sourceTree = "<group>"; };
+		B79BA1E31CB7F38E00CF1D69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B79BA1E91CB7F38E00CF1D69 /* SleepsheepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepsheepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BA1EA1CB7F38E00CF1D69 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B79BA1F21CB7F38E00CF1D69 /* SleepsheepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SleepsheepTests-Info.plist"; sourceTree = "<group>"; };
+		B79BA1F41CB7F38E00CF1D69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B79BA1F61CB7F38E00CF1D69 /* SleepsheepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepsheepTests.m; sourceTree = "<group>"; };
+		B79BA2001CB7F3E000CF1D69 /* ConcentricCirclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcentricCirclesView.h; path = ../ConcentricCirclesView.h; sourceTree = "<group>"; };
+		B79BA2011CB7F3E000CF1D69 /* ConcentricCirclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcentricCirclesView.m; path = ../ConcentricCirclesView.m; sourceTree = "<group>"; };
+		B79BA2031CB7F44100CF1D69 /* XYSSleepSheep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYSSleepSheep.h; path = ../XYSSleepSheep.h; sourceTree = "<group>"; };
+		B79BA2041CB7F44100CF1D69 /* XYSSleepSheep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYSSleepSheep.m; path = ../XYSSleepSheep.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79BA1CB1CB7F38E00CF1D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BA1D41CB7F38E00CF1D69 /* CoreGraphics.framework in Frameworks */,
+				B79BA1D61CB7F38E00CF1D69 /* UIKit.framework in Frameworks */,
+				B79BA1D21CB7F38E00CF1D69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BA1E61CB7F38E00CF1D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BA1EB1CB7F38E00CF1D69 /* XCTest.framework in Frameworks */,
+				B79BA1ED1CB7F38E00CF1D69 /* UIKit.framework in Frameworks */,
+				B79BA1EC1CB7F38E00CF1D69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79BA1C51CB7F38E00CF1D69 = {
+			isa = PBXGroup;
+			children = (
+				B79BA1D71CB7F38E00CF1D69 /* Sleepsheep */,
+				B79BA1F01CB7F38E00CF1D69 /* SleepsheepTests */,
+				B79BA1D01CB7F38E00CF1D69 /* Frameworks */,
+				B79BA1CF1CB7F38E00CF1D69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79BA1CF1CB7F38E00CF1D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79BA1CE1CB7F38E00CF1D69 /* Sleepsheep.app */,
+				B79BA1E91CB7F38E00CF1D69 /* SleepsheepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79BA1D01CB7F38E00CF1D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B79BA1D11CB7F38E00CF1D69 /* Foundation.framework */,
+				B79BA1D31CB7F38E00CF1D69 /* CoreGraphics.framework */,
+				B79BA1D51CB7F38E00CF1D69 /* UIKit.framework */,
+				B79BA1EA1CB7F38E00CF1D69 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B79BA1D71CB7F38E00CF1D69 /* Sleepsheep */ = {
+			isa = PBXGroup;
+			children = (
+				B79BA2031CB7F44100CF1D69 /* XYSSleepSheep.h */,
+				B79BA2041CB7F44100CF1D69 /* XYSSleepSheep.m */,
+				B79BA2001CB7F3E000CF1D69 /* ConcentricCirclesView.h */,
+				B79BA2011CB7F3E000CF1D69 /* ConcentricCirclesView.m */,
+				B79BA1E31CB7F38E00CF1D69 /* Images.xcassets */,
+				B79BA1D81CB7F38E00CF1D69 /* Supporting Files */,
+			);
+			path = Sleepsheep;
+			sourceTree = "<group>";
+		};
+		B79BA1D81CB7F38E00CF1D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79BA1E01CB7F38E00CF1D69 /* XYSAppDelegate.h */,
+				B79BA1E11CB7F38E00CF1D69 /* XYSAppDelegate.m */,
+				B79BA1D91CB7F38E00CF1D69 /* Sleepsheep-Info.plist */,
+				B79BA1DA1CB7F38E00CF1D69 /* InfoPlist.strings */,
+				B79BA1DD1CB7F38E00CF1D69 /* main.m */,
+				B79BA1DF1CB7F38E00CF1D69 /* Sleepsheep-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B79BA1F01CB7F38E00CF1D69 /* SleepsheepTests */ = {
+			isa = PBXGroup;
+			children = (
+				B79BA1F61CB7F38E00CF1D69 /* SleepsheepTests.m */,
+				B79BA1F11CB7F38E00CF1D69 /* Supporting Files */,
+			);
+			path = SleepsheepTests;
+			sourceTree = "<group>";
+		};
+		B79BA1F11CB7F38E00CF1D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79BA1F21CB7F38E00CF1D69 /* SleepsheepTests-Info.plist */,
+				B79BA1F31CB7F38E00CF1D69 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79BA1CD1CB7F38E00CF1D69 /* Sleepsheep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79BA1FA1CB7F38E00CF1D69 /* Build configuration list for PBXNativeTarget "Sleepsheep" */;
+			buildPhases = (
+				B79BA1CA1CB7F38E00CF1D69 /* Sources */,
+				B79BA1CB1CB7F38E00CF1D69 /* Frameworks */,
+				B79BA1CC1CB7F38E00CF1D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sleepsheep;
+			productName = Sleepsheep;
+			productReference = B79BA1CE1CB7F38E00CF1D69 /* Sleepsheep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B79BA1E81CB7F38E00CF1D69 /* SleepsheepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79BA1FD1CB7F38E00CF1D69 /* Build configuration list for PBXNativeTarget "SleepsheepTests" */;
+			buildPhases = (
+				B79BA1E51CB7F38E00CF1D69 /* Sources */,
+				B79BA1E61CB7F38E00CF1D69 /* Frameworks */,
+				B79BA1E71CB7F38E00CF1D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79BA1EF1CB7F38E00CF1D69 /* PBXTargetDependency */,
+			);
+			name = SleepsheepTests;
+			productName = SleepsheepTests;
+			productReference = B79BA1E91CB7F38E00CF1D69 /* SleepsheepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79BA1C61CB7F38E00CF1D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = S;
+				TargetAttributes = {
+					B79BA1E81CB7F38E00CF1D69 = {
+						TestTargetID = B79BA1CD1CB7F38E00CF1D69;
+					};
+				};
+			};
+			buildConfigurationList = B79BA1C91CB7F38E00CF1D69 /* Build configuration list for PBXProject "Sleepsheep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B79BA1C51CB7F38E00CF1D69;
+			productRefGroup = B79BA1CF1CB7F38E00CF1D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79BA1CD1CB7F38E00CF1D69 /* Sleepsheep */,
+				B79BA1E81CB7F38E00CF1D69 /* SleepsheepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79BA1CC1CB7F38E00CF1D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BA1DC1CB7F38E00CF1D69 /* InfoPlist.strings in Resources */,
+				B79BA1E41CB7F38E00CF1D69 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BA1E71CB7F38E00CF1D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BA1F51CB7F38E00CF1D69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79BA1CA1CB7F38E00CF1D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BA2051CB7F44100CF1D69 /* XYSSleepSheep.m in Sources */,
+				B79BA2021CB7F3E000CF1D69 /* ConcentricCirclesView.m in Sources */,
+				B79BA1DE1CB7F38E00CF1D69 /* main.m in Sources */,
+				B79BA1E21CB7F38E00CF1D69 /* XYSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BA1E51CB7F38E00CF1D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BA1F71CB7F38E00CF1D69 /* SleepsheepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B79BA1EF1CB7F38E00CF1D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79BA1CD1CB7F38E00CF1D69 /* Sleepsheep */;
+			targetProxy = B79BA1EE1CB7F38E00CF1D69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B79BA1DA1CB7F38E00CF1D69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79BA1DB1CB7F38E00CF1D69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B79BA1F31CB7F38E00CF1D69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79BA1F41CB7F38E00CF1D69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B79BA1F81CB7F38E00CF1D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B79BA1F91CB7F38E00CF1D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79BA1FB1CB7F38E00CF1D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sleepsheep/Sleepsheep-Prefix.pch";
+				INFOPLIST_FILE = "Sleepsheep/Sleepsheep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B79BA1FC1CB7F38E00CF1D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sleepsheep/Sleepsheep-Prefix.pch";
+				INFOPLIST_FILE = "Sleepsheep/Sleepsheep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B79BA1FE1CB7F38E00CF1D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sleepsheep.app/Sleepsheep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sleepsheep/Sleepsheep-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SleepsheepTests/SleepsheepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B79BA1FF1CB7F38E00CF1D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sleepsheep.app/Sleepsheep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sleepsheep/Sleepsheep-Prefix.pch";
+				INFOPLIST_FILE = "SleepsheepTests/SleepsheepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79BA1C91CB7F38E00CF1D69 /* Build configuration list for PBXProject "Sleepsheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BA1F81CB7F38E00CF1D69 /* Debug */,
+				B79BA1F91CB7F38E00CF1D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79BA1FA1CB7F38E00CF1D69 /* Build configuration list for PBXNativeTarget "Sleepsheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BA1FB1CB7F38E00CF1D69 /* Debug */,
+				B79BA1FC1CB7F38E00CF1D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B79BA1FD1CB7F38E00CF1D69 /* Build configuration list for PBXNativeTarget "SleepsheepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BA1FE1CB7F38E00CF1D69 /* Debug */,
+				B79BA1FF1CB7F38E00CF1D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79BA1C61CB7F38E00CF1D69 /* Project object */;
+}

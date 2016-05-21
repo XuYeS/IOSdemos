@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Photo" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="whoTake" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TakaPhoto" inverseName="newRelationship" inverseEntity="TakaPhoto" syncable="YES"/>
+    </entity>
+    <entity name="TakaPhoto" syncable="YES">
+        <attribute name="who" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="whoTake" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Photo" positionX="-1323" positionY="42" width="162" height="30"/>
+        <element name="TakaPhoto" positionX="-1091" positionY="42" width="128" height="30"/>
+    </elements>
+</model>

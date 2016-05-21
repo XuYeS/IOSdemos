@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B79BAE491CB78AA400ACA9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BAE481CB78AA400ACA9AD /* Foundation.framework */; };
+		B79BAE4B1CB78AA400ACA9AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BAE4A1CB78AA400ACA9AD /* CoreGraphics.framework */; };
+		B79BAE4D1CB78AA400ACA9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BAE4C1CB78AA400ACA9AD /* UIKit.framework */; };
+		B79BAE531CB78AA400ACA9AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B79BAE511CB78AA400ACA9AD /* InfoPlist.strings */; };
+		B79BAE551CB78AA500ACA9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BAE541CB78AA500ACA9AD /* main.m */; };
+		B79BAE591CB78AA500ACA9AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BAE581CB78AA500ACA9AD /* AppDelegate.m */; };
+		B79BAE5C1CB78AA500ACA9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79BAE5A1CB78AA500ACA9AD /* Main.storyboard */; };
+		B79BAE5F1CB78AA500ACA9AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BAE5E1CB78AA500ACA9AD /* ViewController.m */; };
+		B79BAE611CB78AA500ACA9AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79BAE601CB78AA500ACA9AD /* Images.xcassets */; };
+		B79BAE681CB78AA500ACA9AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BAE671CB78AA500ACA9AD /* XCTest.framework */; };
+		B79BAE691CB78AA500ACA9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BAE481CB78AA400ACA9AD /* Foundation.framework */; };
+		B79BAE6A1CB78AA500ACA9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BAE4C1CB78AA400ACA9AD /* UIKit.framework */; };
+		B79BAE721CB78AA500ACA9AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B79BAE701CB78AA500ACA9AD /* InfoPlist.strings */; };
+		B79BAE741CB78AA500ACA9AD /* ConcentricCirclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BAE731CB78AA500ACA9AD /* ConcentricCirclesTests.m */; };
+		B79BAE7F1CB78AE400ACA9AD /* ConcentricCirclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79BAE7E1CB78AE400ACA9AD /* ConcentricCirclesView.m */; };
+		B79D205E1CB8A5D300D42529 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D205D1CB8A5D300D42529 /* ScrollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B79BAE6B1CB78AA500ACA9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79BAE3D1CB78AA400ACA9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79BAE441CB78AA400ACA9AD;
+			remoteInfo = ConcentricCircles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B79BAE451CB78AA400ACA9AD /* ConcentricCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcentricCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BAE481CB78AA400ACA9AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B79BAE4A1CB78AA400ACA9AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B79BAE4C1CB78AA400ACA9AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B79BAE501CB78AA400ACA9AD /* ConcentricCircles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConcentricCircles-Info.plist"; sourceTree = "<group>"; };
+		B79BAE521CB78AA400ACA9AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B79BAE541CB78AA500ACA9AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B79BAE561CB78AA500ACA9AD /* ConcentricCircles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConcentricCircles-Prefix.pch"; sourceTree = "<group>"; };
+		B79BAE571CB78AA500ACA9AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B79BAE581CB78AA500ACA9AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B79BAE5B1CB78AA500ACA9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B79BAE5D1CB78AA500ACA9AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B79BAE5E1CB78AA500ACA9AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B79BAE601CB78AA500ACA9AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B79BAE661CB78AA500ACA9AD /* ConcentricCirclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentricCirclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BAE671CB78AA500ACA9AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B79BAE6F1CB78AA500ACA9AD /* ConcentricCirclesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConcentricCirclesTests-Info.plist"; sourceTree = "<group>"; };
+		B79BAE711CB78AA500ACA9AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B79BAE731CB78AA500ACA9AD /* ConcentricCirclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcentricCirclesTests.m; sourceTree = "<group>"; };
+		B79BAE7D1CB78AE400ACA9AD /* ConcentricCirclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcentricCirclesView.h; sourceTree = "<group>"; };
+		B79BAE7E1CB78AE400ACA9AD /* ConcentricCirclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcentricCirclesView.m; sourceTree = "<group>"; };
+		B79D205C1CB8A5D300D42529 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		B79D205D1CB8A5D300D42529 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79BAE421CB78AA400ACA9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BAE4B1CB78AA400ACA9AD /* CoreGraphics.framework in Frameworks */,
+				B79BAE4D1CB78AA400ACA9AD /* UIKit.framework in Frameworks */,
+				B79BAE491CB78AA400ACA9AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BAE631CB78AA500ACA9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BAE681CB78AA500ACA9AD /* XCTest.framework in Frameworks */,
+				B79BAE6A1CB78AA500ACA9AD /* UIKit.framework in Frameworks */,
+				B79BAE691CB78AA500ACA9AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79BAE3C1CB78AA400ACA9AD = {
+			isa = PBXGroup;
+			children = (
+				B79BAE4E1CB78AA400ACA9AD /* ConcentricCircles */,
+				B79BAE6D1CB78AA500ACA9AD /* ConcentricCirclesTests */,
+				B79BAE471CB78AA400ACA9AD /* Frameworks */,
+				B79BAE461CB78AA400ACA9AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79BAE461CB78AA400ACA9AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79BAE451CB78AA400ACA9AD /* ConcentricCircles.app */,
+				B79BAE661CB78AA500ACA9AD /* ConcentricCirclesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79BAE471CB78AA400ACA9AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B79BAE481CB78AA400ACA9AD /* Foundation.framework */,
+				B79BAE4A1CB78AA400ACA9AD /* CoreGraphics.framework */,
+				B79BAE4C1CB78AA400ACA9AD /* UIKit.framework */,
+				B79BAE671CB78AA500ACA9AD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B79BAE4E1CB78AA400ACA9AD /* ConcentricCircles */ = {
+			isa = PBXGroup;
+			children = (
+				B79BAE5A1CB78AA500ACA9AD /* Main.storyboard */,
+				B79D205C1CB8A5D300D42529 /* ScrollViewController.h */,
+				B79D205D1CB8A5D300D42529 /* ScrollViewController.m */,
+				B79BAE7D1CB78AE400ACA9AD /* ConcentricCirclesView.h */,
+				B79BAE7E1CB78AE400ACA9AD /* ConcentricCirclesView.m */,
+				B79BAE5D1CB78AA500ACA9AD /* ViewController.h */,
+				B79BAE5E1CB78AA500ACA9AD /* ViewController.m */,
+				B79BAE601CB78AA500ACA9AD /* Images.xcassets */,
+				B79BAE4F1CB78AA400ACA9AD /* Supporting Files */,
+			);
+			path = ConcentricCircles;
+			sourceTree = "<group>";
+		};
+		B79BAE4F1CB78AA400ACA9AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79BAE571CB78AA500ACA9AD /* AppDelegate.h */,
+				B79BAE581CB78AA500ACA9AD /* AppDelegate.m */,
+				B79BAE501CB78AA400ACA9AD /* ConcentricCircles-Info.plist */,
+				B79BAE511CB78AA400ACA9AD /* InfoPlist.strings */,
+				B79BAE541CB78AA500ACA9AD /* main.m */,
+				B79BAE561CB78AA500ACA9AD /* ConcentricCircles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B79BAE6D1CB78AA500ACA9AD /* ConcentricCirclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B79BAE731CB78AA500ACA9AD /* ConcentricCirclesTests.m */,
+				B79BAE6E1CB78AA500ACA9AD /* Supporting Files */,
+			);
+			path = ConcentricCirclesTests;
+			sourceTree = "<group>";
+		};
+		B79BAE6E1CB78AA500ACA9AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79BAE6F1CB78AA500ACA9AD /* ConcentricCirclesTests-Info.plist */,
+				B79BAE701CB78AA500ACA9AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79BAE441CB78AA400ACA9AD /* ConcentricCircles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79BAE771CB78AA500ACA9AD /* Build configuration list for PBXNativeTarget "ConcentricCircles" */;
+			buildPhases = (
+				B79BAE411CB78AA400ACA9AD /* Sources */,
+				B79BAE421CB78AA400ACA9AD /* Frameworks */,
+				B79BAE431CB78AA400ACA9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcentricCircles;
+			productName = ConcentricCircles;
+			productReference = B79BAE451CB78AA400ACA9AD /* ConcentricCircles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B79BAE651CB78AA500ACA9AD /* ConcentricCirclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79BAE7A1CB78AA500ACA9AD /* Build configuration list for PBXNativeTarget "ConcentricCirclesTests" */;
+			buildPhases = (
+				B79BAE621CB78AA500ACA9AD /* Sources */,
+				B79BAE631CB78AA500ACA9AD /* Frameworks */,
+				B79BAE641CB78AA500ACA9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79BAE6C1CB78AA500ACA9AD /* PBXTargetDependency */,
+			);
+			name = ConcentricCirclesTests;
+			productName = ConcentricCirclesTests;
+			productReference = B79BAE661CB78AA500ACA9AD /* ConcentricCirclesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79BAE3D1CB78AA400ACA9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = S;
+				TargetAttributes = {
+					B79BAE651CB78AA500ACA9AD = {
+						TestTargetID = B79BAE441CB78AA400ACA9AD;
+					};
+				};
+			};
+			buildConfigurationList = B79BAE401CB78AA400ACA9AD /* Build configuration list for PBXProject "ConcentricCircles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79BAE3C1CB78AA400ACA9AD;
+			productRefGroup = B79BAE461CB78AA400ACA9AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79BAE441CB78AA400ACA9AD /* ConcentricCircles */,
+				B79BAE651CB78AA500ACA9AD /* ConcentricCirclesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79BAE431CB78AA400ACA9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BAE611CB78AA500ACA9AD /* Images.xcassets in Resources */,
+				B79BAE531CB78AA400ACA9AD /* InfoPlist.strings in Resources */,
+				B79BAE5C1CB78AA500ACA9AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BAE641CB78AA500ACA9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BAE721CB78AA500ACA9AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79BAE411CB78AA400ACA9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D205E1CB8A5D300D42529 /* ScrollViewController.m in Sources */,
+				B79BAE5F1CB78AA500ACA9AD /* ViewController.m in Sources */,
+				B79BAE591CB78AA500ACA9AD /* AppDelegate.m in Sources */,
+				B79BAE7F1CB78AE400ACA9AD /* ConcentricCirclesView.m in Sources */,
+				B79BAE551CB78AA500ACA9AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BAE621CB78AA500ACA9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BAE741CB78AA500ACA9AD /* ConcentricCirclesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B79BAE6C1CB78AA500ACA9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79BAE441CB78AA400ACA9AD /* ConcentricCircles */;
+			targetProxy = B79BAE6B1CB78AA500ACA9AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B79BAE511CB78AA400ACA9AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79BAE521CB78AA400ACA9AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B79BAE5A1CB78AA500ACA9AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79BAE5B1CB78AA500ACA9AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B79BAE701CB78AA500ACA9AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79BAE711CB78AA500ACA9AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B79BAE751CB78AA500ACA9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B79BAE761CB78AA500ACA9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79BAE781CB78AA500ACA9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcentricCircles/ConcentricCircles-Prefix.pch";
+				INFOPLIST_FILE = "ConcentricCircles/ConcentricCircles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B79BAE791CB78AA500ACA9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcentricCircles/ConcentricCircles-Prefix.pch";
+				INFOPLIST_FILE = "ConcentricCircles/ConcentricCircles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B79BAE7B1CB78AA500ACA9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConcentricCircles.app/ConcentricCircles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcentricCircles/ConcentricCircles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConcentricCirclesTests/ConcentricCirclesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B79BAE7C1CB78AA500ACA9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConcentricCircles.app/ConcentricCircles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcentricCircles/ConcentricCircles-Prefix.pch";
+				INFOPLIST_FILE = "ConcentricCirclesTests/ConcentricCirclesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79BAE401CB78AA400ACA9AD /* Build configuration list for PBXProject "ConcentricCircles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BAE751CB78AA500ACA9AD /* Debug */,
+				B79BAE761CB78AA500ACA9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79BAE771CB78AA500ACA9AD /* Build configuration list for PBXNativeTarget "ConcentricCircles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BAE781CB78AA500ACA9AD /* Debug */,
+				B79BAE791CB78AA500ACA9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79BAE7A1CB78AA500ACA9AD /* Build configuration list for PBXNativeTarget "ConcentricCirclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BAE7B1CB78AA500ACA9AD /* Debug */,
+				B79BAE7C1CB78AA500ACA9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79BAE3D1CB78AA400ACA9AD /* Project object */;
+}
