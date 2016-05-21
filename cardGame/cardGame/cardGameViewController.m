@@ -48,7 +48,7 @@
     int chosenButtonIndex=[self.cardButtons indexOfObject:sender];
     [self.game  chooseCardAtIndex:chosenButtonIndex];
     [self updateUI];
-     self.ScoreLable.text=[NSString stringWithFormat:@"Score:%d",self.game.score];
+     self.ScoreLable.text=[NSString stringWithFormat:@"Score:%ld",(long)self.game.score];
     
 }
 -(void)updateUI
