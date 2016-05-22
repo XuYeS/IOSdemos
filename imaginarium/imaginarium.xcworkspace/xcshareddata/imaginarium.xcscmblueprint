@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2C59188A878FC1D5EB29D829AF91159D38D40711",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2C59188A878FC1D5EB29D829AF91159D38D40711" : 0,
+    "E7B6C805C394016AEBDD3D2E462B82047B9DF22C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "44EC02BD-E6DD-42C0-8477-1CAC56A14730",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2C59188A878FC1D5EB29D829AF91159D38D40711" : "imaginarium\/",
+    "E7B6C805C394016AEBDD3D2E462B82047B9DF22C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "imaginarium",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "imaginarium.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/XuYeS\/imaginarium.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C59188A878FC1D5EB29D829AF91159D38D40711"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/XuYeS\/IOSdemos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E7B6C805C394016AEBDD3D2E462B82047B9DF22C"
+    }
+  ]
+}
